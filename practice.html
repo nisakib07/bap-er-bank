@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Task</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="text-5xl text-center">Let's make it bigger</h1>
+    </header>
+
+    <main>
+      <section class="bg-green-300 p-8 w-3/4 mx-auto mt-6 rounded-xl">
+        <h2 id="result" class="text-center text-red-500 mb-4 text-4xl">00</h2>
+        <input
+          id="number"
+          type="text"
+          class="block w-3/4 mx-auto rounded-xl h-8 p-4"
+          placeholder="Please enter a number" />
+
+        <div class="w-3/4 mx-auto grid grid-cols-3 mt-4 gap-4">
+          <button
+            id="double"
+            class="bg-purple-500 hover:bg-amber-600 text-white text-2xl p-4 rounded-2xl">
+            Double
+          </button>
+          <button
+            id="triple"
+            class="bg-blue-600 hover:bg-fuchsia-500 text-white text-2xl p-4 rounded-2xl">
+            Triple
+          </button>
+          <button
+            id="reset"
+            class="bg-neutral-700 hover:bg-stone-900 text-white text-2xl p-4 rounded-2xl">
+            Reset
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <!-- JS -->
+    <script src="js/practice.js"></script>
+  </body>
+</html>
